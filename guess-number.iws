@@ -79,7 +79,7 @@
       <file leaf-file-name="GuessNumberTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/GuessNumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="46" selection-start="612" selection-end="612" vertical-scroll-proportion="-5.6">
+            <state line="31" column="50" selection-start="1059" selection-end="1063" vertical-scroll-proportion="-12.44">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +90,7 @@
       <file leaf-file-name="GuessNumber.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/guessNumber/GuessNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="58" selection-start="524" selection-end="524" vertical-scroll-proportion="0.3387471">
+            <state line="29" column="23" selection-start="903" selection-end="903" vertical-scroll-proportion="0.50812066">
               <folding />
             </state>
           </provider>
@@ -251,7 +251,7 @@
       <recent name="src\guessNumber" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GuessNumberTest.should_return_3a0b_given_partial_digits_are_correct">
+  <component name="RunManager" selected="JUnit.GuessNumberTest.should_return_2a0b_given_two_digits_are_correct">
     <configuration default="false" name="GuessNumberTest.should_return_3a0b_given_partial_digits_are_correct" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="guess-number" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -618,7 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/GuessNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="46" selection-start="612" selection-end="612" vertical-scroll-proportion="-5.6">
+        <state line="31" column="50" selection-start="1059" selection-end="1063" vertical-scroll-proportion="-12.44">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -627,7 +627,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/guessNumber/GuessNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="58" selection-start="524" selection-end="524" vertical-scroll-proportion="0.3387471">
+        <state line="29" column="23" selection-start="903" selection-end="903" vertical-scroll-proportion="0.50812066">
           <folding />
         </state>
       </provider>

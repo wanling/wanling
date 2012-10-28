@@ -25,11 +25,15 @@ public class GuessNumber {
         char[] user = userInput.toCharArray();
 
         int a = 0;
+        int b = 0;
         for (int i = 0; i < random.length; i++){
             if (random[i] == user[i])
                 a++;
+            else
+                if (randomNumber.contains(userInput.substring(i,i+1)))
+                    b++;
         }
 
-        return  String.format("%da0b",a);
+        return  String.format("%da%db",a,b);
     }
 }
