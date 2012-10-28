@@ -9,9 +9,27 @@ public class GuessNumber {
     }
 
     public String validate(String userInput) {
-        if(userInput.equals(randomNumber)){
-            return "4a0b";
+        //parse input and randomNumber to int[]
+        //compare and find "a"s
+        //return result
+//        int[] random = new int[this.randomNumber.length()] ;
+//        for (int i = 0; i < this.randomNumber.length(); i++) {
+//            random[i] = this.randomNumber.charAt(i);
+//        }
+//
+//        int[] user = new int[userInput.length()];
+//        for (int i = 0; i < userInput.length(); i++){
+//            user[i] = userInput.charAt(i);
+//        }
+        char[] random = randomNumber.toCharArray();
+        char[] user = userInput.toCharArray();
+
+        int a = 0;
+        for (int i = 0; i < random.length; i++){
+            if (random[i] == user[i])
+                a++;
         }
-        return "3a0b";
+
+        return  String.format("%da0b",a);
     }
 }
