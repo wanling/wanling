@@ -36,4 +36,32 @@ public class GuessNumber {
 
         return  String.format("%da%db",a,b);
     }
+
+    public String validate_len(String s) {
+        return  String.valueOf(s.trim().length());
+      //  return "0";
+    }
+
+    public String validate_repeat(String s) {
+        int[] times = new int[10];
+        for (int i = 0; i < 10; i++)
+            times[i] = 0;
+        char[] inputs = s.toCharArray();
+        for (char x : inputs){
+             times[x-48]++;
+        }
+        for (int i = 0; i < 10; i++)
+            if (times[i]>1)
+                return "yes";
+        return "no";
+    }
+
+    public String validate_number(String s) {
+        char[] schar = s.toCharArray();
+        for (char c : schar){
+            if (!('0'<c&&c<'9'))
+                return "no";
+        }
+        return "yes";
+    }
 }

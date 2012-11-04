@@ -39,4 +39,28 @@ public class GuessNumberTest {
         String result = guessNumber.validate("1243");
         assertEquals("2a2b",result);
     }
+
+    @Test
+    public void validate_length_of_input(){
+        String input = "1234";
+        GuessNumber guessNumber = new GuessNumber(input);
+        String len = guessNumber.validate_len("1234");
+        assertEquals("4",len);
+    }
+
+    @Test
+    public  void validate_repeat_number_of_input(){
+        String input = "1234";
+        GuessNumber guessNumber = new GuessNumber(input);
+        String res = guessNumber.validate_repeat("2557");
+        assertEquals("yes",res);
+    }
+
+    @Test
+    public void validate_number_of_input(){
+        String input = "1234";
+        GuessNumber guessNumber = new GuessNumber(input);
+        String res = guessNumber.validate_number("1234");
+        assertEquals("yes",res);
+    }
 }
